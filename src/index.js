@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import App from './App'; // O seu layout principal
+import Home from './pages/Home';
+import Admin from './pages/Admin';
+
+// Define as rotas
+const router = createBrowserRouter([
+  {
+    path: '/',        // Rota principal
+    element: <Home />, // Carrega o componente Home (Frontoffice)
+  },
+  {
+    path: '/admin',   // Rota do backoffice
+    element: <Admin />,  // Carrega o componente Admin (Backoffice)
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
