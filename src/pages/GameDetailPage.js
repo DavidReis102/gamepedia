@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom'; 
 import './GameDetailPage.css'; 
 
-// --- 1. ADICIONEI O SEU TOKEN AQUI ---
-const YOUR_SHEETY_TOKEN = "Bearer MIRAKURO102"; 
+const YOUR_SHEETY_TOKEN = "Bearer davidpc102"; 
 
 function GameDetailPage() {
   const { gameId } = useParams(); 
@@ -11,22 +10,17 @@ function GameDetailPage() {
   const [jogo, setJogo] = useState(null);
   const [estudioNome, setEstudioNome] = useState('');
   const [loading, setLoading] = useState(true);
-
-  // --- NOVOS STATES PARA LIKES ---
   const [likes, setLikes] = useState(0);
   const [dislikes, setDislikes] = useState(0);
   const [hasVoted, setHasVoted] = useState(false); 
 
-  // URLs da API
-  const API_JOGO_URL = `https://api.sheety.co/8cffd316e8dcac18ca085f6517ac25de/gamepediaApi/jogos/${gameId}`;
-  const API_ESTUDIOS_URL = 'https://api.sheety.co/8cffd316e8dcac18ca085f6517ac25de/gamepediaApi/estudios';
+  const API_JOGO_URL = `https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos/${gameId}`;
+  const API_ESTUDIOS_URL = 'https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios';
 
-  // useEffect para buscar os dados (Fetch inicial)
   useEffect(() => {
     const fetchGameData = async () => {
       try {
         setLoading(true);
-        // --- 2. ADICIONEI O TOKEN AO FETCH DO JOGO ---
         const jogoResponse = await fetch(API_JOGO_URL, {
           headers: { 'Authorization': YOUR_SHEETY_TOKEN }
         });
@@ -37,7 +31,6 @@ function GameDetailPage() {
         setLikes(jogoInfo.likes);
         setDislikes(jogoInfo.dislikes);
 
-        // --- 3. ADICIONEI O TOKEN AO FETCH DOS ESTÚDIOS ---
         const estudiosResponse = await fetch(API_ESTUDIOS_URL, {
           headers: { 'Authorization': YOUR_SHEETY_TOKEN }
         });
@@ -63,7 +56,6 @@ function GameDetailPage() {
   }, [gameId]); 
 
 
-  // --- NOVA FUNÇÃO: HandleVote (já tem o token) ---
   const handleVote = async (type) => {
     if (hasVoted) return; 
 
@@ -104,53 +96,63 @@ function GameDetailPage() {
 
 
   if (loading) {
-    return <div className="detail-loading">A carregar...</div>;
+    return (
+      <div className="game-detail-page-wrapper">
+        <div className="detail-loading">A carregar...</div>
+      </div>
+    );
   }
 
   if (!jogo) {
-    return <div className="detail-loading">Jogo não encontrado.</div>;
+    return (
+      <div className="game-detail-page-wrapper">
+         <div className="detail-loading">Jogo não encontrado.</div>
+      </div>
+    );
   }
 
   return (
-    <div className="detail-container">
-      <Link to="/" className="back-button">
-        &larr; Voltar à lista
-      </Link>
+    // --- NOVO WRAPPER DE FUNDO ---
+    <div className="game-detail-page-wrapper">
+      <div className="detail-container">
+        <Link to="/" className="back-button">
+          &larr; Voltar à lista
+        </Link>
 
-      <div className="detail-content">
-        <img 
-          src={jogo["capa (url)"]} 
-          alt={jogo.titulo} 
-          className="detail-image"
-        />
-        <div className="detail-info">
-          <h1>{jogo.titulo}</h1>
-          <span className="detail-meta">
-            {estudioNome} | {jogo.anoLancamento}
-          </span>
-          
-          <h2>Descrição</h2>
-          <p>{jogo.descricao}</p>
+        <div className="detail-content">
+          <img 
+            src={jogo["capa (url)"]} 
+            alt={jogo.titulo} 
+            className="detail-image"
+          />
+          <div className="detail-info">
+            <h1>{jogo.titulo}</h1>
+            <span className="detail-meta">
+              {estudioNome} | {jogo.anoLancamento}
+            </span>
+            
+            <h2>Descrição</h2>
+            <p>{jogo.descricao}</p>
 
-          {/* SECÇÃO DE LIKES */}
-          <div className="like-container">
-            <button 
-              onClick={() => handleVote('like')} 
-              disabled={hasVoted}
-              className="like-button"
-            >
-              👍 {likes}
-            </button>
-            <button 
-              onClick={() => handleVote('dislike')} 
-              disabled={hasVoted}
-              className="dislike-button"
-            >
-              👎 {dislikes}
-            </button>
+            {/* SECÇÃO DE LIKES */}
+            <div className="like-container">
+              <button 
+                onClick={() => handleVote('like')} 
+                disabled={hasVoted}
+                className="like-button"
+              >
+                👍 {likes}
+              </button>
+              <button 
+                onClick={() => handleVote('dislike')} 
+                disabled={hasVoted}
+                className="dislike-button"
+              >
+                👎 {dislikes}
+              </button>
+            </div>
+            {hasVoted && <span className="vote-feedback">Obrigado pelo seu voto!</span>}
           </div>
-          {hasVoted && <span className="vote-feedback">Obrigado pelo seu voto!</span>}
-
         </div>
       </div>
     </div>

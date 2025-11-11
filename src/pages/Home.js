@@ -3,7 +3,7 @@ import { GameCard } from '../components/GameCard';
 import './Home.css';
 
 // --- 1. ADICIONEI O SEU TOKEN AQUI ---
-const YOUR_SHEETY_TOKEN = "Bearer MIRAKURO102"; 
+const YOUR_SHEETY_TOKEN = "Bearer davidpc102"; 
 
 function Home() {
 
@@ -15,8 +15,8 @@ function Home() {
   const [jogosPorPagina] = useState(8);
   const [sortMethod, setSortMethod] = useState("default");
 
-  const API_JOGOS_URL = 'https://api.sheety.co/8cffd316e8dcac18ca085f6517ac25de/gamepediaApi/jogos';
-  const API_ESTUDIOS_URL = 'https://api.sheety.co/8cffd316e8dcac18ca085f6517ac25de/gamepediaApi/estudios';
+  const API_JOGOS_URL = 'https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos';
+  const API_ESTUDIOS_URL = 'https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios';
 
   useEffect(() => {
     const fetchData = async () => {
