@@ -1,0 +1,50 @@
+.game-card {
+  /* --- 1. CORREÇÃO DO LINK --- */
+  text-decoration: none; /* Remove o sublinhado azul */
+  color: inherit; /* Faz o texto ter a cor normal (branca) */
+  
+  /* --- 2. CORREÇÃO DO TAMANHO --- */
+  display: flex; /* Diz ao cartão para usar flexbox... */
+  flex-direction: column; /* ...para organizar a imagem e o texto verticalmente */
+  height: 100%; /* FORÇA o cartão a ocupar 100% da altura da sua linha na grelha */
+  
+  /* --- O SEU ESTILO ORIGINAL --- */
+  background-color: #2a2a4e; 
+  border: 1px solid #4a4a70;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgb(255, 0, 0);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.game-card-image {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover; 
+  display: block;
+}
+
+.game-card-info {
+  padding: 16px;
+  /* --- 3. PEQUENO AJUSTE PARA O FLEXBOX --- */
+  flex-grow: 1; /* Faz esta secção crescer para preencher o espaço */
+}
+
+.game-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #ffffff; 
+}
+
+.game-card-studio {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #b0b0d0; 
+}

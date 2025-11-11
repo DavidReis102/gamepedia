@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* Cor de fundo escura caso a imagem falhe */
+  background-color: #1a1a2e; 
+  
+  /* --- A CORREÇÃO ESTÁ AQUI --- */
+  /* O React vai agora encontrar a imagem na pasta 'src' e processá-la */
+  background-image: 
+    linear-gradient(rgba(26, 26, 46, 0.8), rgba(26, 26, 46, 0.8)), 
+    url('./background-image.png'); /* <-- Caminho relativo */
+  
+  /* O resto do código está igual */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #f0f0f0;
 }

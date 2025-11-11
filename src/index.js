@@ -2,19 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import App from './App'; // O seu layout principal
+import App from './App'; 
 import Home from './pages/Home';
 import Admin from './pages/Admin';
+import GameDetailPage from './pages/GameDetailPage'; 
+
+// --- 1. ADICIONE ESTA LINHA ---
+// (Sem isto, o seu 'index.css' não é carregado)
+import './index.css'; 
 
 // Define as rotas
 const router = createBrowserRouter([
   {
-    path: '/',        // Rota principal
-    element: <Home />, // Carrega o componente Home (Frontoffice)
+    path: '/',
+    element: <Home />, 
   },
   {
-    path: '/admin',   // Rota do backoffice
-    element: <Admin />,  // Carrega o componente Admin (Backoffice)
+    path: '/admin', 
+    element: <Admin />,
+  },
+  {
+    path: '/jogo/:gameId', 
+    element: <GameDetailPage />,
   },
 ]);
 

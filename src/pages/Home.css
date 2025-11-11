@@ -1,0 +1,113 @@
+/* Container principal da página Home */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto; /* Centra o conteúdo */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.home-container h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Container para a Pesquisa e Ordenação */
+.controls-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha em ecrãs pequenos */
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Fazer a barra de pesquisa ocupar o espaço disponível */
+.search-container {
+  flex-grow: 1; /* Permite que cresça */
+  min-width: 250px; /* Largura mínima antes de quebrar linha */
+}
+
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: #2a2a4e;
+  border: 1px solid #4a4a70;
+  color: #ffffff; /* Cor do texto a escrever */
+  box-sizing: border-box; /* Importante */
+}
+
+.search-bar::placeholder {
+  color: #b0b0d0;
+}
+
+/* Estilos para o Dropdown de Ordenação */
+.sort-container {
+  flex-grow: 0;
+}
+
+.sort-dropdown {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: #2a2a4e;
+  border: 1px solid #4a4a70;
+  color: #ffffff;
+  height: 49px; 
+  cursor: pointer;
+}
+
+.sort-dropdown option {
+  background-color: #2a2a4e;
+  color: #ffffff;
+}
+
+/* A GRELHA */
+.lista-jogos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px; /* Espaçamento entre os cards */
+}
+
+/* Mensagem de "Nenhum resultado" */
+.search-no-results {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #b0b0d0; 
+  margin-top: 40px;
+}
+
+/* BOTÕES DE PAGINAÇÃO */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.pagination-container button {
+  padding: 8px 16px;
+  border: 1px solid #4a4a70;
+  background-color: #2a2a4e;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+  color: #ffffff;
+}
+
+.pagination-container button:hover:not(:disabled) {
+  background-color: #090028;
+}
+
+.pagination-container button:disabled {
+  background-color: #2a2a4e;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-container span {
+  font-size: 1rem;
+  color: #ffffff;
+}
