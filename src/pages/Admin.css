@@ -1,0 +1,238 @@
+/* Wrapper da página inteira (para centrar) */
+.admin-page-wrapper {
+  display: flex;
+  align-items: flex-start; /* Alinha ao topo */
+  justify-content: center;
+  padding: 50px 20px; /* Adiciona padding */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Container do Login */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 24px;
+  background-color: #2a2a4e;
+  border: 1px solid #4a4a70;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #4a4a70;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; 
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #218838;
+}
+
+/* Link para voltar ao site */
+.back-to-site {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #b0b0d0;
+  text-decoration: none;
+}
+.back-to-site:hover {
+  color: #ffffff;
+}
+
+/* --- ESTILOS DO PAINEL DE ADMIN --- */
+
+/* Painel de Admin (depois do login) */
+.admin-panel {
+  width: 100%;
+  max-width: 1000px;
+  padding: 24px;
+  /* Define o fundo sólido */
+  background-color: #2a2a4e;
+  border: 1px solid #4a4a70;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.admin-panel h1 {
+  margin-top: 0;
+}
+
+.admin-panel h2 {
+  border-bottom: 2px solid #4a4a70;
+  padding-bottom: 10px;
+}
+
+/* Tabela de Jogos */
+.admin-table {
+  width: 100%;
+  /* Corrige o layout da tabela */
+  border-collapse: collapse; 
+  margin-top: 20px;
+  table-layout: fixed; /* Impede que o conteúdo "empurre" as colunas */
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #4a4a70;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle; /* Centra verticalmente */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.admin-table th {
+  background-color: #1a1a2e;
+}
+
+/* Define larguras específicas */
+.admin-table th:nth-child(1),
+.admin-table td:nth-child(1) { width: 80px; } /* Capa */
+
+.admin-table th:nth-child(2),
+.admin-table td:nth-child(2) { width: 50%; } /* Título */
+
+.admin-table th:nth-child(3),
+.admin-table td:nth-child(3) { width: 80px; } /* Ano */
+
+.admin-table th:nth-child(4),
+.admin-table td:nth-child(4) { width: 180px; } /* Ações */
+
+
+/* Imagem pequena na tabela */
+.admin-table-image {
+  width: 50px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
+/* Botões de Ação */
+.admin-table-actions {
+  display: flex;
+  flex-wrap: wrap; /* Permite quebrar linha se não couber */
+  gap: 10px;
+  justify-content: center;
+  white-space: normal;
+}
+
+/* Botões genéricos de admin */
+.admin-button-edit,
+.admin-button-delete,
+.admin-button-new {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  color: white;
+}
+
+.admin-button-new {
+  background-color: #28a745; /* Verde */
+  font-size: 1rem;
+  margin: 15px 0;
+}
+
+.admin-button-edit {
+  background-color: #ffc107; /* Amarelo */
+  color: #212529; /* Texto escuro para o amarelo */
+}
+
+.admin-button-delete {
+  background-color: #dc3545; /* Vermelho */
+}
+
+/* --- ESTILOS DO FORMULÁRIO DE CRIAÇÃO --- */
+
+.admin-form {
+  margin-top: 20px;
+}
+
+.admin-form .form-group {
+  margin-bottom: 15px;
+}
+
+.admin-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.admin-form .form-group input,
+.admin-form .form-group select,
+.admin-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #4a4a70;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  box-sizing: border-box; 
+}
+
+.admin-form .form-group textarea {
+  min-height: 100px;
+  resize: vertical; 
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* --- NOVO ESTILO PARA EDIÇÃO --- */
+
+/* Para alinhar os campos 'Likes' e 'Dislikes' */
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-row .form-group {
+  flex: 1; /* Faz com que ambos ocupem metade do espaço */
+}
