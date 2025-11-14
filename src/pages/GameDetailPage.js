@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom'; 
 import './GameDetailPage.css'; 
 
-const YOUR_SHEETY_TOKEN = "Bearer davidpc102"; 
+// O seu Token e ID da API
+const YOUR_SHEETY_TOKEN = "Bearer davidpc102";
+ 
 
 function GameDetailPage() {
   const { gameId } = useParams(); 
@@ -14,9 +16,11 @@ function GameDetailPage() {
   const [dislikes, setDislikes] = useState(0);
   const [hasVoted, setHasVoted] = useState(false); 
 
+  // URLs da API
   const API_JOGO_URL = `https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos/${gameId}`;
-  const API_ESTUDIOS_URL = 'https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios';
+  const API_ESTUDIOS_URL = `https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios`;
 
+  // useEffect para buscar os dados
   useEffect(() => {
     const fetchGameData = async () => {
       try {
@@ -56,6 +60,7 @@ function GameDetailPage() {
   }, [gameId]); 
 
 
+  // Função HandleVote
   const handleVote = async (type) => {
     if (hasVoted) return; 
 
@@ -112,8 +117,8 @@ function GameDetailPage() {
   }
 
   return (
-    // --- NOVO WRAPPER DE FUNDO ---
     <div className="game-detail-page-wrapper">
+      
       <div className="detail-container">
         <Link to="/" className="back-button">
           &larr; Voltar à lista
@@ -152,6 +157,7 @@ function GameDetailPage() {
               </button>
             </div>
             {hasVoted && <span className="vote-feedback">Obrigado pelo seu voto!</span>}
+
           </div>
         </div>
       </div>

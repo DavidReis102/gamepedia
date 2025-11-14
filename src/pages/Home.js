@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
+// --- O IMPORT DA NAVBAR FOI REMOVIDO DAQUI ---
 import { GameCard } from '../components/GameCard';
 import './Home.css';
-
-// --- 1. ADICIONEI O SEU TOKEN AQUI ---
-const YOUR_SHEETY_TOKEN = "Bearer davidpc102"; 
 
 function Home() {
 
@@ -15,28 +13,23 @@ function Home() {
   const [jogosPorPagina] = useState(8);
   const [sortMethod, setSortMethod] = useState("default");
 
-  const API_JOGOS_URL = 'https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos';
-  const API_ESTUDIOS_URL = 'https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios';
+  // O seu Token e URLs da API
+  const YOUR_SHEETY_TOKEN = "Bearer davidpc102";
+  const API_JOGOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos"; 
+  const API_ESTUDIOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios";
+
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // --- 2. ADICIONEI OS HEADERS DE AUTENTICAÇÃO ---
         const [jogosResponse, estudiosResponse] = await Promise.all([
-          fetch(API_JOGOS_URL, { 
-            headers: { 'Authorization': YOUR_SHEETY_TOKEN } 
-          }),
-          fetch(API_ESTUDIOS_URL, { 
-            headers: { 'Authorization': YOUR_SHEETY_TOKEN } 
-          })
+          fetch(API_JOGOS_URL, { headers: { 'Authorization': YOUR_SHEETY_TOKEN } }),
+          fetch(API_ESTUDIOS_URL, { headers: { 'Authorization': YOUR_SHEETY_TOKEN } })
         ]);
-        
         const jogosData = await jogosResponse.json();
         const estudiosData = await estudiosResponse.json();
-        
         setJogos(jogosData.jogos || []);
         setEstudios(estudiosData.estudios || []);
-
       } catch (error) {
         console.error("Erro ao buscar dados:", error);
       } finally {
@@ -44,15 +37,14 @@ function Home() {
       }
     };
     fetchData();
-  }, []); // Dependência vazia está correta
+  }, []);
 
-  // getEstudioName
   const getEstudioName = (estudiosId) => {
     const estudio = estudios.find(e => e.num == estudiosId);
     return estudio ? estudio.nome : 'Desconhecido';
   };
 
-  // Lógica de Filtro
+  // 1. Lógica de Filtro
   const filteredJogos = useMemo(() => {
     return jogos.filter((jogo) => {
       const search = searchTerm.toLowerCase();
@@ -67,7 +59,7 @@ function Home() {
     });
   }, [jogos, estudios, searchTerm]); 
 
-  // Lógica de Ordenação
+  // 2. Lógica de Ordenação
   const sortedJogos = useMemo(() => {
     const sortableJogos = [...filteredJogos]; 
     if (sortMethod === 'title') {
@@ -78,12 +70,12 @@ function Home() {
     return sortableJogos;
   }, [filteredJogos, sortMethod]);
 
-  // Loading
+  
   if (loading) {
     return <div style={{color: 'white', textAlign: 'center', paddingTop: '50px'}}>A carregar jogos...</div>;
   }
 
-  // Lógica de Paginação
+  // 3. Lógica de Paginação
   const totalPages = Math.ceil(sortedJogos.length / jogosPorPagina);
   const indexOfLastJogo = currentPage * jogosPorPagina;
   const indexOfFirstJogo = indexOfLastJogo - jogosPorPagina;
@@ -96,12 +88,15 @@ function Home() {
     if (currentPage > 1) setCurrentPage(currentPage - 1);
   };
 
-  // Render
+
+  // --- RENDERIZAR A PÁGINA ---
   return (
+    // --- O WRAPPER '<>' E A NAVBAR FORAM REMOVIDOS ---
     <div className="home-container">
       <h1>Gamepedia - Frontoffice</h1>
 
       <div className="controls-container">
+        {/* Barra de pesquisa */}
         <div className="search-container">
           <input
             type="text"
@@ -113,6 +108,8 @@ function Home() {
             }}
           />
         </div>
+
+        {/* Dropdown de Ordenação */}
         <div className="sort-container">
           <select
             className="sort-dropdown"
@@ -129,6 +126,7 @@ function Home() {
         </div>
       </div>
 
+      {/* A grelha de jogos */}
       <div className="lista-jogos">
         {jogosAtuais.map((jogo) => (
           <GameCard
@@ -139,6 +137,7 @@ function Home() {
         ))}
       </div>
 
+      {/* Botões de Paginação */}
       <div className="pagination-container">
         <button onClick={prevPage} disabled={currentPage === 1}>
           Anterior
@@ -151,6 +150,7 @@ function Home() {
         </button>
       </div>
 
+      {/* Mensagens */}
       {sortedJogos.length === 0 && searchTerm !== "" && (
         <p className="search-no-results">
           Nenhum jogo encontrado com "{searchTerm}".
