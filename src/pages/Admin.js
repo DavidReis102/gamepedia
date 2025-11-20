@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom';
 import './Admin.css'; 
 
 // --- 1. DADOS DA API (Confirme que estão corretos) ---
-const SHEETY_TOKEN = "Bearer davidpc102";
-const API_JOGOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos"; 
-const API_ESTUDIOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios";
+//const SHEETY_TOKEN = "Bearer davidpc102";
+//const API_JOGOS_URL = "https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/jogos"; 
+//const API_ESTUDIOS_URL = "https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/estudios";
+const API_JOGOS_URL = "http://localhost:3001/jogos";
+const API_ESTUDIOS_URL = "http://localhost:3001/estudios";
 
 // Estado inicial para o formulário
 const defaultGameState = {
