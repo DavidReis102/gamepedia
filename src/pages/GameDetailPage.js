@@ -11,12 +11,12 @@ function GameDetailPage() {
   const [loading, setLoading] = useState(true);
   const [likes, setLikes] = useState(0);
   const [dislikes, setDislikes] = useState(0);
-  const [hasVoted, setHasVoted] = useState(false); 
-
-  // URLs da API
-  const YOUR_SHEETY_TOKEN = "Bearer davidpc102";
-  const API_JOGO_URL = `https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos/${gameId}`;
-  const API_ESTUDIOS_URL = `https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios`;
+  const [hasVoted, setHasVoted] = useState(false);
+  
+    // URLs da API
+  const SHEETY_TOKEN = "Bearer davidpc102";
+  const API_JOGO_URL = `https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/jogos/${gameId}`;
+  const API_ESTUDIOS_URL = `https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/estudios`;
 
   // useEffect para buscar os dados
   useEffect(() => {
@@ -24,7 +24,7 @@ function GameDetailPage() {
       try {
         setLoading(true);
         const jogoResponse = await fetch(API_JOGO_URL, {
-          headers: { 'Authorization': YOUR_SHEETY_TOKEN }
+          headers: { 'Authorization': SHEETY_TOKEN }
         });
         const jogoData = await jogoResponse.json();
         const jogoInfo = jogoData.jogo; 
@@ -34,7 +34,7 @@ function GameDetailPage() {
         setDislikes(jogoInfo.dislikes);
 
         const estudiosResponse = await fetch(API_ESTUDIOS_URL, {
-          headers: { 'Authorization': YOUR_SHEETY_TOKEN }
+          headers: { 'Authorization': SHEETY_TOKEN }
         });
         const estudiosData = await estudiosResponse.json();
         const estudiosList = estudiosData.estudios || [];
@@ -88,7 +88,7 @@ function GameDetailPage() {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': YOUR_SHEETY_TOKEN 
+          'Authorization': SHEETY_TOKEN 
         },
         body: JSON.stringify(updatedData)
       });
