@@ -1,1 +1,1356 @@
-{}
+{
+  "estudios": [
+    {
+      "num": 1,
+      "nome": "FromSoftware",
+      "pais": "Japão",
+      "id": "2"
+    },
+    {
+      "num": 2,
+      "nome": "Rockstar Games",
+      "pais": "EUA",
+      "id": "3"
+    },
+    {
+      "num": 3,
+      "nome": "CD Projekt Red",
+      "pais": "Polónia",
+      "id": "4"
+    },
+    {
+      "num": 4,
+      "nome": "Naughty Dog",
+      "pais": "EUA",
+      "id": "5"
+    },
+    {
+      "num": 5,
+      "nome": "Santa Monica Studio",
+      "pais": "EUA",
+      "id": "6"
+    },
+    {
+      "num": 6,
+      "nome": "Nintendo EPD",
+      "pais": "Japão",
+      "id": "7"
+    },
+    {
+      "num": 7,
+      "nome": "Capcom",
+      "pais": "Japão",
+      "id": "8"
+    },
+    {
+      "num": 8,
+      "nome": "Mojang Studios",
+      "pais": "Suécia",
+      "id": "9"
+    },
+    {
+      "num": 9,
+      "nome": "Bethesda Game Studios",
+      "pais": "EUA",
+      "id": "10"
+    },
+    {
+      "num": 10,
+      "nome": "Guerrilla Games",
+      "pais": "Países Baixos",
+      "id": "11"
+    },
+    {
+      "num": 11,
+      "nome": "Namco",
+      "pais": "Japão",
+      "id": "12"
+    },
+    {
+      "num": 12,
+      "nome": "Maxis",
+      "pais": "EUA",
+      "id": "13"
+    },
+    {
+      "num": 13,
+      "nome": "Remedy Entertainment",
+      "pais": "Finlândia",
+      "id": "14"
+    },
+    {
+      "num": 14,
+      "nome": "Ubisoft Montreal",
+      "pais": "Canadá",
+      "id": "15"
+    },
+    {
+      "num": 15,
+      "nome": "Square Enix",
+      "pais": "Japão",
+      "id": "16"
+    },
+    {
+      "num": 16,
+      "nome": "Team Cherry",
+      "pais": "Austrália",
+      "id": "17"
+    },
+    {
+      "num": 17,
+      "nome": "Supergiant Games",
+      "pais": "EUA",
+      "id": "18"
+    },
+    {
+      "num": 18,
+      "nome": "Insomniac Games",
+      "pais": "EUA",
+      "id": "19"
+    },
+    {
+      "num": 19,
+      "nome": "Valve",
+      "pais": "EUA",
+      "id": "20"
+    },
+    {
+      "num": 20,
+      "nome": "Blizzard Entertainment",
+      "pais": "EUA",
+      "id": "21"
+    },
+    {
+      "num": 21,
+      "nome": "Arkane Studios",
+      "pais": "França",
+      "id": "22"
+    },
+    {
+      "num": 22,
+      "nome": "BioWare",
+      "pais": "Canadá",
+      "id": "23"
+    },
+    {
+      "num": 23,
+      "nome": "Bungie",
+      "pais": "EUA",
+      "id": "24"
+    },
+    {
+      "num": 24,
+      "nome": "Treyarch",
+      "pais": "EUA",
+      "id": "25"
+    },
+    {
+      "num": 25,
+      "nome": "Larian Studios",
+      "pais": "Bélgica",
+      "id": "26"
+    },
+    {
+      "num": 26,
+      "nome": "Playground Games",
+      "pais": "UK",
+      "id": "27"
+    },
+    {
+      "num": 27,
+      "nome": "Playdead",
+      "pais": "Dinamarca",
+      "id": "28"
+    }
+  ],
+  "jogos": [
+    {
+      "numj": 102,
+      "titulo": "Cyberpunk 2077",
+      "anoLancamento": 2020,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/f/f7/Cyberpunk_2077_capa.png",
+      "estudiosId": 3,
+      "descricao": "Cyberpunk 2077 Um RPG de ação de mundo aberto ambientado na distópica e vibrante Night City. Jogue como V, um mercenário ciberneticamente modificado em busca de um implante que concede a imortalidade.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "3"
+    },
+    {
+      "numj": 103,
+      "titulo": "Dark Souls 3",
+      "anoLancamento": 2016,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/7/7c/Dark_Souls_1_capa.png",
+      "estudiosId": 1,
+      "descricao": "Dark Souls 3 A conclusão da aclamada série de RPG de ação, conhecida pela sua dificuldade implacável e design de mundo intrincado. Viaje pelo reino moribundo de Lothric para derrotar os Senhores das Cinzas.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "4"
+    },
+    {
+      "numj": 104,
+      "titulo": "Grand Theft Auto V",
+      "anoLancamento": 2013,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/8/80/Grand_Theft_Auto_V_capa.png",
+      "estudiosId": 2,
+      "descricao": "Grand Theft Auto V Alterne entre três criminosos—Michael, Franklin e Trevor—numa sátira de mundo aberto no sul da Califórnia. Planeie e execute assaltos ambiciosos enquanto navega por um mundo caótico.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "5"
+    },
+    {
+      "numj": 105,
+      "titulo": "Demon's Souls",
+      "anoLancamento": 2009,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/a/aa/Demons_Souls_capa.png",
+      "estudiosId": 1,
+      "descricao": "Demon's Souls O RPG de ação que deu origem ao género \"Souls\", agora refeito para o PS5. Conquiste demónios no reino amaldiçoado de Boletaria para salvar a terra de um nevoeiro devorador de almas.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "6"
+    },
+    {
+      "numj": 106,
+      "titulo": "Bloodborne",
+      "anoLancamento": 2015,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/2/29/Bloodborne_capa.png",
+      "estudiosId": 1,
+      "descricao": "Bloodborne Um RPG de ação gótico e lovecraftiano focado em combate agressivo. Cace bestas grotescas na cidade amaldiçoada de Yharnam, usando armas de truque e armas de fogo",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "7"
+    },
+    {
+      "numj": 107,
+      "titulo": "Sekiro: Shadows Die Twice",
+      "anoLancamento": 2019,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/7/7b/Sekiro_Shadows_Die_Twice_capa.png",
+      "estudiosId": 1,
+      "descricao": "Sekiro: Shadows Die Twice Um jogo de ação e aventura focado em combate de espadas rítmico e furtividade. Jogue como um shinobi vingativo no Japão da era Sengoku, usando uma prótese de braço para derrotar inimigos formidáveis.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "8"
+    },
+    {
+      "numj": 108,
+      "titulo": "Armored Core 6: Fires of Rubicon",
+      "anoLancamento": 2023,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/8/89/Armored_Core_VI_Fires_of_Rubicon_cover_art.jpg",
+      "estudiosId": 1,
+      "descricao": "Armored Core 6: Fires of Rubicon Ação de mechas em alta velocidade onde os jogadores pilotam robôs de combate (Armored Cores) altamente personalizáveis. Domine o combate omnidirecional em arenas vastas para completar missões corporativas no planeta Rubicon.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "9"
+    },
+    {
+      "numj": 109,
+      "titulo": "Red Dead Redemption",
+      "anoLancamento": 2010,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/f/f3/Red_Dead_Redemption_capa.png",
+      "estudiosId": 2,
+      "descricao": "Red Dead Redemption A continuação da história (embora lançada antes), seguindo o ex-fora da lei John Marston. Cace seus antigos companheiros de gangue no Velho Oeste americano para salvar sua família.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "10"
+    },
+    {
+      "numj": 110,
+      "titulo": "Grand Theft Auto IV",
+      "anoLancamento": 2008,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/91/Grand_Theft_Auto_IV_capa.png",
+      "estudiosId": 2,
+      "descricao": "Grand Theft Auto IV Uma visão sombria e corajosa do sonho americano, seguindo o imigrante Niko Bellic em Liberty City. Lute contra o submundo do crime numa cidade inspirada em Nova Iorque.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "11"
+    },
+    {
+      "numj": 111,
+      "titulo": "Grand Theft Auto: San Andreas",
+      "anoLancamento": 2004,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/d/d3/Grand_Theft_Auto_San_Andreas_capa.png",
+      "estudiosId": 2,
+      "descricao": "Grand Theft Auto: San Andreas Um clássico de mundo aberto focado nas guerras de gangues dos anos 90. Jogue como CJ enquanto ele retorna ao seu bairro para retomar o controle das ruas de Los Santos.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "12"
+    },
+    {
+      "numj": 112,
+      "titulo": "Bully",
+      "anoLancamento": 2006,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/d/de/Bully_us_capa_pt.jpg",
+      "estudiosId": 2,
+      "descricao": "Bully Um jogo de ação e aventura de mundo aberto ambientado numa escola preparatória de elite. Navegue pela hierarquia social da Bullworth Academy como o rebelde Jimmy Hopkins.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "13"
+    },
+    {
+      "numj": 113,
+      "titulo": "The Witcher 3: Wild Hunt",
+      "anoLancamento": 2015,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/0/06/TW3_Wild_Hunt.png",
+      "estudiosId": 3,
+      "descricao": "The Witcher 3: Wild Hunt Um RPG de mundo aberto massivo que segue Geralt de Rívia, um caçador de monstros profissional. Procure pela sua filha adotiva, Ciri, enquanto enfrenta uma ameaça sobrenatural conhecida como Caçada Selvagem.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "14"
+    },
+    {
+      "numj": 114,
+      "titulo": "The Witcher 2: Assassins of Kings",
+      "anoLancamento": 2011,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/4/40/Witcher_2_cover.jpg",
+      "estudiosId": 3,
+      "descricao": "The Witcher 2: Assassins of Kings Um RPG focado na narrativa, onde Geralt de Rívia é acusado de assassinar um rei. Desvende uma conspiração política complexa onde as escolhas têm consequências significativas.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "15"
+    },
+    {
+      "numj": 115,
+      "titulo": "The Witcher",
+      "anoLancamento": 2007,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/90/The_Wicher_1_capa.png",
+      "estudiosId": 3,
+      "descricao": "The Witcher O início da jornada de Geralt de Rívia nos videojogos, focado em combate rítmico. Lute contra monstros e navegue por intrigas políticas neste RPG de ação clássico.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "16"
+    },
+    {
+      "numj": 116,
+      "titulo": "The Last of Us",
+      "anoLancamento": 2013,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/b/be/The_Last_of_Us_capa.png",
+      "estudiosId": 4,
+      "descricao": "The Last of Us Uma jornada pós-apocalíptica brutal focada na narrativa e na sobrevivência. Guie Joel e Ellie por uns EUA devastados por uma infecção fúngica.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "17"
+    },
+    {
+      "numj": 117,
+      "titulo": "The Last of Us Part II",
+      "anoLancamento": 2020,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/96/The_Last_of_Us_2_capa.png",
+      "estudiosId": 4,
+      "descricao": "The Last of Us Part II A controversa e emocionalmente pesada continuação, focada num ciclo de vingança. Jogue como Ellie e a nova personagem Abby, explorando temas de trauma e tribalismo",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "18"
+    },
+    {
+      "numj": 118,
+      "titulo": "Uncharted 4: A Thief's End",
+      "anoLancamento": 2016,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/1/13/Uncharted_4_capa.png",
+      "estudiosId": 4,
+      "descricao": "Uncharted 4: A Thief's End A espetacular conclusão da história do caçador de tesouros Nathan Drake. Junte-se ao seu irmão perdido há muito tempo para uma última aventura em busca do tesouro do pirata Henry Avery.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "19"
+    },
+    {
+      "numj": 119,
+      "titulo": "Uncharted 2: Among Thieves",
+      "anoLancamento": 2009,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/1/10/Uncharted_2_capa.png",
+      "estudiosId": 4,
+      "descricao": "Uncharted 2: Among Thieves Uma aventura cinematográfica de ação aclamada pela crítica. Nathan Drake corre contra mercenários para encontrar a mítica cidade de Shambhala.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "20"
+    },
+    {
+      "numj": 120,
+      "titulo": "God of War",
+      "anoLancamento": 2018,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/5/53/God_of_War_2005_capa.png",
+      "estudiosId": 5,
+      "descricao": "God of War Um recomeço da série, agora ambientado na mitologia nórdica, com um foco mais profundo na narrativa. Kratos e seu filho Atreus viajam para espalhar as cinzas de sua esposa no pico mais alto dos Nove Reinos.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "21"
+    },
+    {
+      "numj": 121,
+      "titulo": "God of War Ragnarök",
+      "anoLancamento": 2022,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/a/a5/God_of_War_Ragnarök_capa.jpg",
+      "estudiosId": 5,
+      "descricao": "God of War Ragnarök A conclusão épica da saga nórdica. Kratos e Atreus devem enfrentar os deuses Asgardianos enquanto o apocalipse profetizado se aproxima.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "22"
+    },
+    {
+      "numj": 122,
+      "titulo": "God of War III",
+      "anoLancamento": 2010,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/6/6c/God_of_War_3_capa.png",
+      "estudiosId": 5,
+      "descricao": "God of War III A conclusão brutal da saga grega original de Kratos. Lidere um ataque total ao Monte Olimpo para se vingar de Zeus.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "23"
+    },
+    {
+      "numj": 123,
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "anoLancamento": 2017,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/0/0f/Legend_of_Zelda_Breath_of_the_Wild_capa.png",
+      "estudiosId": 6,
+      "descricao": "The Legend of Zelda: Breath of the Wild Um jogo de aventura de mundo aberto que redefiniu o género, focado na liberdade e exploração. Desperte como Link após 100 anos para derrotar Calamity Ganon e salvar Hyrule.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "24"
+    },
+    {
+      "numj": 124,
+      "titulo": "Super Mario Odyssey",
+      "anoLancamento": 2017,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/99/Super_Mario_Odyssey_Capa.png",
+      "estudiosId": 6,
+      "descricao": "Super Mario Odyssey Um jogo de plataforma 3D expansivo onde Mario viaja pelo mundo num navio em forma de chapéu. Use Cappy para possuir inimigos e objetos para salvar a Princesa Peach de Bowser.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "25"
+    },
+    {
+      "numj": 125,
+      "titulo": "The Legend of Zelda: Tears of the Kingdom",
+      "anoLancamento": 2023,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/2/25/Zelda_TotK_capa.jpg",
+      "estudiosId": 6,
+      "descricao": "The Legend of Zelda: Tears of the Kingdom A sequela direta de Breath of the Wild, expandindo Hyrule para os céus e o subsolo. Use novas habilidades como Ultrahand e Fuse para construir veículos e armas para derrotar uma nova ameaça.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "26"
+    },
+    {
+      "numj": 126,
+      "titulo": "Super Mario Bros.",
+      "anoLancamento": 1985,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/0/03/Super_Mario_Bros._box.png",
+      "estudiosId": 6,
+      "descricao": "Super Mario Bros. O clássico jogo de plataforma 2D que definiu a indústria. Corra e pule pelo Reino Cogumelo para salvar a Princesa Toadstool (Peach) de Bowser.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "27"
+    },
+    {
+      "numj": 127,
+      "titulo": "The Legend of Zelda",
+      "anoLancamento": 1986,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/96/The_Legend_of_Zelda_1_capa.png",
+      "estudiosId": 6,
+      "descricao": "The Legend of Zelda (Original) O jogo de aventura original de 8 bits que deu início a tudo. Explore um mundo aberto visto de cima, colete fragmentos da Triforce e derrote Ganon.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "28"
+    },
+    {
+      "numj": 128,
+      "titulo": "Resident Evil 4 (Remake)",
+      "anoLancamento": 2023,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/3/30/Resident_Evil_4_%28remake%29.png",
+      "estudiosId": 7,
+      "descricao": "Resident Evil 4 (Remake) Uma recriação moderna do clássico de terror de sobrevivência e ação. Leon S. Kennedy luta contra aldeões infectados (Los Ganados) numa missão para resgatar a filha do presidente em Espanha.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "29"
+    },
+    {
+      "numj": 129,
+      "titulo": "Monster Hunter: World",
+      "anoLancamento": 2018,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/3/34/Monster_Hunter_World_capa.jpg",
+      "estudiosId": 7,
+      "descricao": "Monster Hunter: World Um RPG de ação onde os jogadores caçam monstros gigantescos em ecossistemas detalhados. Fabrique melhores armas e armaduras com os restos dos monstros para enfrentar alvos ainda maiores.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "30"
+    },
+    {
+      "numj": 130,
+      "titulo": "Street Fighter 6",
+      "anoLancamento": 2023,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/94/Street_Fighter_6_box_art.jpg",
+      "estudiosId": 7,
+      "descricao": "Street Fighter 6 A mais recente entrada na icónica série de jogos de luta, conhecida por seus controlos modernos e modos de jogo robustos. Compita em batalhas frente a frente online ou explore o modo World Tour",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "31"
+    },
+    {
+      "numj": 131,
+      "titulo": "Resident Evil 7: Biohazard",
+      "anoLancamento": 2017,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/e/ec/Capa_Resident_Evil_7.jpg",
+      "estudiosId": 7,
+      "descricao": "Resident Evil 7: Biohazard Um retorno ao terror de sobrevivência intenso, agora em primeira pessoa. Explore uma mansão decrépita na Louisiana enquanto tenta sobreviver à perturbadora família Baker.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "32"
+    },
+    {
+      "numj": 132,
+      "titulo": "Mega Man 2",
+      "anoLancamento": 1988,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/b/be/Megaman2_box.jpg",
+      "estudiosId": 7,
+      "descricao": "Mega Man 2 Um dos jogos de plataforma 2D mais icónicos e difíceis do NES. Derrote oito Robot Masters temáticos para ganhar suas armas e enfrentar o Dr. Wily.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "33"
+    },
+    {
+      "numj": 133,
+      "titulo": "Devil May Cry 5",
+      "anoLancamento": 2019,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/c/cb/Devil_May_Cry_5.jpg",
+      "estudiosId": 7,
+      "descricao": "Devil May Cry 5 Um jogo de ação \"stylish\" de alta octanagem. Alterne entre três personagens—Dante, Nero e V—para dizimar demónios com combos espetaculares.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "34"
+    },
+    {
+      "numj": 134,
+      "titulo": "Minecraft",
+      "anoLancamento": 2011,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/9c/Minecraft_capa.png",
+      "estudiosId": 8,
+      "descricao": "Minecraft O jogo sandbox definitivo onde os jogadores podem construir qualquer coisa que imaginarem. Sobreviva a noites cheias de monstros ou jogue no modo criativo com recursos ilimitados.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "35"
+    },
+    {
+      "numj": 135,
+      "titulo": "The Elder Scrolls V: Skyrim",
+      "anoLancamento": 2011,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/a/aa/The_Elder_Scrolls_5_Skyrim_capa.png",
+      "estudiosId": 9,
+      "descricao": "The Elder Scrolls V: Skyrim Um RPG de fantasia de mundo aberto onde você joga como o Dragonborn (Nascido do Dragão). Explore uma vasta terra nórdica, lute contra dragões e complete centenas de missões.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "36"
+    },
+    {
+      "numj": 136,
+      "titulo": "Fallout 4",
+      "anoLancamento": 2015,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/7/70/Fallout_4_cover_art.jpg",
+      "estudiosId": 9,
+      "descricao": "Fallout 4 Um RPG de mundo aberto pós-apocalíptico ambientado na região de Boston. Procure seu filho desaparecido no deserto nuclear, construa assentamentos e lute contra super mutantes.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "37"
+    },
+    {
+      "numj": 137,
+      "titulo": "Starfield",
+      "anoLancamento": 2023,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/4/43/Capa_do_jogo_Starfield.jpg",
+      "estudiosId": 9,
+      "descricao": "Starfield O RPG de ficção científica da Bethesda, ambientado no espaço sideral. Explore mais de mil planetas, personalize sua nave e junte-se à Constellation para desvendar os mistérios da galáxia.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "38"
+    },
+    {
+      "numj": 138,
+      "titulo": "Fallout 3",
+      "anoLancamento": 2008,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/8/83/Fallout_3_cover_art.PNG",
+      "estudiosId": 9,
+      "descricao": "Fallout 3 O RPG que trouxe a série Fallout para o 3D em primeira pessoa. Emerge de um cofre subterrâneo (Vault) para o deserto devastado de Washington D.C",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "39"
+    },
+    {
+      "numj": 139,
+      "titulo": "Horizon Zero Dawn",
+      "anoLancamento": 2017,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/d/d0/Horizon_Zero_Dawn_capa.png",
+      "estudiosId": 10,
+      "descricao": "Horizon Zero Dawn Um RPG de ação de mundo aberto num futuro pós-pós-apocalíptico. Jogue como Aloy, uma caçadora que luta contra máquinas robóticas semelhantes a dinossauros para descobrir seu passado.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "40"
+    },
+    {
+      "numj": 140,
+      "titulo": "Horizon Forbidden West",
+      "anoLancamento": 2022,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/e/e5/Horizon_Forbidden_West.jpg?20201229195229",
+      "estudiosId": 10,
+      "descricao": "Horizon Forbidden West A sequela de Zero Dawn, levando Aloy para o oeste perigoso e exótico. Lute contra novas máquinas e uma misteriosa praga vermelha que ameaça o mundo.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "41"
+    },
+    {
+      "numj": 141,
+      "titulo": "Killzone: Shadow Fall",
+      "anoLancamento": 2013,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/1/17/Killzone_Shadow_Fall_capa.png",
+      "estudiosId": 10,
+      "descricao": "Killzone: Shadow Fall Um jogo de tiro em primeira pessoa (FPS) de lançamento para o PS4. Jogue como um Shadow Marshal mantendo uma paz tensa entre duas facções rivais no planeta Vekta.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "42"
+    },
+    {
+      "numj": 142,
+      "titulo": "Pac-Man",
+      "anoLancamento": 1980,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/3/33/Pac-Man_World.jpg",
+      "estudiosId": 11,
+      "descricao": "Pac-Man O clássico de arcade intemporal. Coma todos os pontos num labirinto enquanto evita quatro fantasmas coloridos.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "43"
+    },
+    {
+      "numj": 143,
+      "titulo": "SimCity",
+      "anoLancamento": 1989,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/5/5f/SimCity_2013_Limited_Edition_cover.png",
+      "estudiosId": 12,
+      "descricao": "SimCity Um jogo de simulação de construção de cidades. Projete, construa e gira uma metrópole, gerenciando tudo, desde impostos até desastres naturais",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "44"
+    },
+    {
+      "numj": 144,
+      "titulo": "Alan Wake 2",
+      "anoLancamento": 2023,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/e/ed/Alan_Wake_2_box_art.jpg",
+      "estudiosId": 13,
+      "descricao": "Alan Wake 2 Um jogo de terror de sobrevivência e suspense psicológico. Alterne entre o agente do FBI Saga Anderson e o escritor preso Alan Wake para resolver um mistério em Bright Falls.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "45"
+    },
+    {
+      "numj": 145,
+      "titulo": "Control",
+      "anoLancamento": 2019,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/7/73/Control_capa.png",
+      "estudiosId": 13,
+      "descricao": "Control Uma aventura de ação sobrenatural em terceira pessoa. Jogue como Jesse Faden, a nova diretora do Federal Bureau of Control, enquanto luta contra uma entidade paranormal chamada Hiss.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "46"
+    },
+    {
+      "numj": 146,
+      "titulo": "Max Payne 3",
+      "anoLancamento": 2012,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/3/3b/Maxpayne3.jpg",
+      "estudiosId": 2,
+      "descricao": "Max Payne 3 Um jogo de tiro em terceira pessoa noir e cinematográfico, conhecido pelo seu \"bullet time\". Max Payne, agora um guarda-costas em São Paulo, Brasil, luta contra gangues numa tentativa desesperada de redenção.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "47"
+    },
+    {
+      "numj": 147,
+      "titulo": "Jak and Daxter: The Precursor Legacy",
+      "anoLancamento": 2001,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png",
+      "estudiosId": 4,
+      "descricao": "Jak and Daxter: The Precursor Legacy Um jogo de plataforma 3D vibrante da era PS2. Colete Precursor Orbs e Power Cells num mundo colorido para ajudar Daxter a voltar ao normal.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "48"
+    },
+    {
+      "numj": 148,
+      "titulo": "Super Mario 64",
+      "anoLancamento": 1996,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/7/7b/Super_Mario_64_front.jpg",
+      "estudiosId": 6,
+      "descricao": "Super Mario 64 O revolucionário jogo de plataforma 3D que definiu o género no Nintendo 64. Explore as pinturas no castelo da Princesa Peach para coletar estrelas e derrotar Bowser.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "49"
+    },
+    {
+      "numj": 149,
+      "titulo": "Resident Evil 2 (Remake)",
+      "anoLancamento": 2019,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/c/c5/RE2_remake_PS4_cover_art.png",
+      "estudiosId": 7,
+      "descricao": "Resident Evil 2 (Remake) Uma recriação completa do clássico de terror de sobrevivência de 1998. Sobreviva ao surto de zombies em Raccoon City como o polícia novato Leon Kennedy e a estudante Claire Redfield.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "50"
+    },
+    {
+      "numj": 150,
+      "titulo": "The Elder Scrolls IV: Oblivion",
+      "anoLancamento": 2006,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/f8/The_Elder_Scrolls_4_Oblivion_capa.png/330px-The_Elder_Scrolls_4_Oblivion_capa.png",
+      "estudiosId": 9,
+      "descricao": "The Elder Scrolls IV: Oblivion Um RPG de fantasia de mundo aberto conhecido pelo seu mundo vibrante e missões de guildas. Feche os portões dimensionais para o reino demoníaco de Oblivion e salve o mundo de Cyrodiil.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "51"
+    },
+    {
+      "numj": 151,
+      "titulo": "King's Field",
+      "anoLancamento": 1994,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/5/5b/Kingsfield1_cover.jpg",
+      "estudiosId": 1,
+      "descricao": "King's Field Um RPG de ação em primeira pessoa medieval e sombrio da FromSoftware. Explore masmorras traiçoeiras e é considerado o predecessor espiritual da série Souls.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "52"
+    },
+    {
+      "numj": 152,
+      "titulo": "Grand Theft Auto III",
+      "anoLancamento": 2001,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/c/cc/Grand_Theft_Auto_III_capa.png",
+      "estudiosId": 2,
+      "descricao": "Grand Theft Auto III O jogo que revolucionou o género de mundo aberto em 3D. Jogue como um criminoso silencioso chamado Claude, em busca de vingança em Liberty City.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "53"
+    },
+    {
+      "numj": 153,
+      "titulo": "Gwent: The Witcher Card Game",
+      "anoLancamento": 2018,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Gwent_cover_art.png/250px-Gwent_cover_art.png",
+      "estudiosId": 3,
+      "descricao": "Gwent: The Witcher Card Game Um jogo de cartas colecionáveis tático baseado no minijogo de The Witcher 3. Construa baralhos de diferentes facções e supere seu oponente em duas de três rodadas.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "54"
+    },
+    {
+      "numj": 154,
+      "titulo": "Assassin's Creed II",
+      "anoLancamento": 2009,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/a/ac/Assassins_Creed_2_capa.png",
+      "estudiosId": 14,
+      "descricao": "Assassin's Creed II Acompanhe a jornada de Ezio Auditore na Itália Renascentista em busca de vingança contra os Templários. Este capítulo expandiu a série com uma narrativa rica e um mundo histórico vibrante.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "55"
+    },
+    {
+      "numj": 155,
+      "titulo": "Final Fantasy VII",
+      "anoLancamento": 1997,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg",
+      "estudiosId": 15,
+      "descricao": "Final Fantasy VII Junte-se a Cloud Strife e ao grupo ecoterrorista AVALANCHE na luta contra a megacorporação Shinra e o lendário vilão Sephiroth. Um RPG que marcou uma geração com sua mistura de fantasia, ficção científica e narrativa emocional.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "56"
+    },
+    {
+      "numj": 156,
+      "titulo": "Hollow Knight",
+      "anoLancamento": 2017,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/0/04/Hollow_Knight_first_cover_art.webp",
+      "estudiosId": 16,
+      "descricao": "Hollow Knight Um desafiante jogo de ação e exploração (Metroidvania) ambientado no reino subterrâneo de Hallownest. Explore cavernas vastas desenhadas à mão e lute contra criaturas corrompidas numa atmosfera melancólica.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "57"
+    },
+    {
+      "numj": 157,
+      "titulo": "Hades",
+      "anoLancamento": 2020,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/8/80/Hades_capa.jpg/330px-Hades_capa.jpg",
+      "estudiosId": 17,
+      "descricao": "Hades Um \"roguelike\" de ação frenética onde controla Zagreus, o príncipe do Submundo, nas suas tentativas de fuga para o Olimpo. Combine bênçãos dos deuses gregos em combates viciantes enquanto desvenda uma história familiar complexa.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "58"
+    },
+    {
+      "numj": 158,
+      "titulo": "Marvel's Spider-Man",
+      "anoLancamento": 2018,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/78/Spider-Man_jogo_2018_capa.png/330px-Spider-Man_jogo_2018_capa.png",
+      "estudiosId": 18,
+      "descricao": "Marvel's Spider-Man Balance pelas ruas de uma Nova Iorque incrivelmente detalhada na pele de um Peter Parker experiente. Utilize combate acrobático e engenhocas para enfrentar vilões icónicos enquanto tenta equilibrar a vida de herói com a pessoal.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "59"
+    },
+    {
+      "numj": 159,
+      "titulo": "Half-Life 2",
+      "anoLancamento": 2004,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/2/25/Half-Life_2_cover.jpg",
+      "estudiosId": 19,
+      "descricao": "Half-Life 2 Um FPS revolucionário que segue o físico Gordon Freeman numa Terra ocupada por alienígenas. Utilize a icónica Arma de Gravidade para resolver quebra-cabeças baseados em física e combater a força opressora Combine.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "60"
+    },
+    {
+      "numj": 160,
+      "titulo": "Portal 2",
+      "anoLancamento": 2011,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/f9/Portal2cover.jpg/250px-Portal2cover.jpg",
+      "estudiosId": 19,
+      "descricao": "Portal 2 Um aclamado jogo de quebra-cabeças em primeira pessoa conhecido pelo seu humor inteligente e mecânicas inovadoras. Coopere ou jogue a solo para navegar pelas câmaras de teste da Aperture Science sob o olhar da IA GLaDOS.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "61"
+    },
+    {
+      "numj": 161,
+      "titulo": "Dota 2",
+      "anoLancamento": 2013,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/3/31/Dota_2_Steam_artwork.jpg",
+      "estudiosId": 19,
+      "descricao": "Dota 2 Um MOBA altamente estratégico e competitivo onde duas equipas de cinco heróis lutam para destruir a base inimiga (\"Ancient\"). Oferece uma complexidade profunda com mais de cem heróis únicos para dominar.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "62"
+    },
+    {
+      "numj": 162,
+      "titulo": "Team Fortress 2",
+      "anoLancamento": 2007,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/5/5f/Tf2_standalonebox.jpg",
+      "estudiosId": 19,
+      "descricao": "Team Fortress 2 Um jogo de tiro multijogador baseado em classes com um estilo visual cartunesco e humorístico. Escolha entre nove classes distintas, como o Médico ou o Heavy, para cumprir objetivos em equipa.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "63"
+    },
+    {
+      "numj": 163,
+      "titulo": "Counter-Strike: Global Offensive",
+      "anoLancamento": 2012,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/c/ce/Counter-Strike_Global_Offensive.jpg",
+      "estudiosId": 19,
+      "descricao": "Counter-Strike: Global Offensive (CS:GO) O jogo de tiro tático definitivo focado em equipas, onde Terroristas e Contra-Terroristas se enfrentam em rondas eliminatórias. A precisão, o conhecimento dos mapas e a gestão da economia do jogo são cruciais para a vitória.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "64"
+    },
+    {
+      "numj": 164,
+      "titulo": "World of Warcraft",
+      "anoLancamento": 2004,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/91/WoW_Box_Art1.jpg",
+      "estudiosId": 20,
+      "descricao": "World of Warcraft O MMORPG mais influente da história, situado no vasto mundo de fantasia de Azeroth. Crie o seu herói, escolha entre a Aliança ou a Horda e embarque em missões épicas com milhões de jogadores.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "65"
+    },
+    {
+      "numj": 165,
+      "titulo": "Diablo II",
+      "anoLancamento": 2000,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/4c/Diablo_II_PC_capa.jpg/330px-Diablo_II_PC_capa.jpg",
+      "estudiosId": 20,
+      "descricao": "Diablo II O RPG de ação que definiu o género, focado em \"loot\" viciante e combate contra hordas demoníacas. Persiga o Errante Sombrio através de santuários e infernos para impedir a destruição do mundo.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "66"
+    },
+    {
+      "numj": 166,
+      "titulo": "StarCraft",
+      "anoLancamento": 1998,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/e/e0/StarCraft.jpg",
+      "estudiosId": 20,
+      "descricao": "StarCraft Um jogo de estratégia em tempo real (RTS) de ficção científica que se tornou um pilar dos e-sports. Comande uma das três raças distintas — Terran, Zerg ou Protoss — numa guerra interestelar pelo domínio galáctico.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "67"
+    },
+    {
+      "numj": 167,
+      "titulo": "Overwatch",
+      "anoLancamento": 2016,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/b/bf/Overwatch_logo.jpg",
+      "estudiosId": 20,
+      "descricao": "Overwatch Um vibrante jogo de tiro baseado em heróis, onde o trabalho em equipa e a combinação de habilidades são essenciais. Escolha entre um elenco diversificado de personagens para disputar objetivos em cenários futuristas.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "68"
+    },
+    {
+      "numj": 168,
+      "titulo": "Dishonored",
+      "anoLancamento": 2012,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/4/48/Dishonored_capa.png",
+      "estudiosId": 21,
+      "descricao": "Dishonored Um jogo de ação furtiva em primeira pessoa onde joga como um assassino sobrenatural numa cidade \"steampunk\". Escolha entre o caos sangrento ou a furtividade não letal para se vingar daqueles que o traíram.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "69"
+    },
+    {
+      "numj": 169,
+      "titulo": "Prey",
+      "anoLancamento": 2017,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/3/3c/Prey_2017_capa.png",
+      "estudiosId": 21,
+      "descricao": "Prey (2017) Um simulador imersivo de ficção científica ambientado na estação espacial Talos I, infestada por alienígenas que mudam de forma. Use armas, ferramentas e poderes extraterrestres para sobreviver e descobrir a verdade sobre a estação.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "70"
+    },
+    {
+      "numj": 170,
+      "titulo": "Deathloop",
+      "anoLancamento": 2021,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/e/e4/Deathloop_capa.jpg",
+      "estudiosId": 21,
+      "descricao": "Deathloop Um jogo de tiro estiloso onde dois assassinos rivais estão presos num loop temporal misterioso. Elimine oito alvos visionários num único dia para quebrar o ciclo antes que o tempo reinicie.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "71"
+    },
+    {
+      "numj": 171,
+      "titulo": "Mass Effect 2",
+      "anoLancamento": 2010,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/0/05/MassEffect2_cover.PNG",
+      "estudiosId": 22,
+      "descricao": "Mass Effect 2 Um RPG espacial focado nos personagens, onde o Comandante Shepard deve reunir uma equipa de elite da galáxia. As suas escolhas e lealdade da equipa determinam quem sobrevive à \"missão suicida\" final.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "72"
+    },
+    {
+      "numj": 172,
+      "titulo": "Star Wars: Knights of the Old Republic",
+      "anoLancamento": 2003,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/9/9d/Knights_of_the_Old_Republic_Issue_1.jpg",
+      "estudiosId": 22,
+      "descricao": "Star Wars: Knights of the Old Republic Um RPG lendário ambientado milhares de anos antes dos filmes, onde você molda o destino da galáxia. Escolha o caminho da luz ou o lado sombrio da Força numa narrativa rica e cheia de reviravoltas.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "73"
+    },
+    {
+      "numj": 173,
+      "titulo": "Dragon Age: Origins",
+      "anoLancamento": 2009,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/8/89/Dragon_Age_Origins_cover.png",
+      "estudiosId": 22,
+      "descricao": "Dragon Age: Origins Um RPG de fantasia tático onde se junta à antiga ordem dos Grey Wardens para combater uma invasão monstruosa. As suas origens e escolhas morais têm um impacto profundo no mundo de Thedas e na narrativa.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "74"
+    },
+    {
+      "numj": 174,
+      "titulo": "Halo: Combat Evolved",
+      "anoLancamento": 2001,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+      "estudiosId": 23,
+      "descricao": "Halo: Combat Evolved O jogo de tiro que revolucionou os FPS em consolas, apresentando o supersoldado Master Chief. Combata a aliança alienígena Covenant num misterioso mundo em forma de anel para salvar a humanidade.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "75"
+    },
+    {
+      "numj": 175,
+      "titulo": "Destiny 2",
+      "anoLancamento": 2017,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/0/05/Destiny_2_%28artwork%29.jpg",
+      "estudiosId": 23,
+      "descricao": "Destiny 2 Um jogo de tiro online em mundo compartilhado que combina ficção científica com elementos de fantasia e RPG. Como um Guardião, explore o sistema solar, colete equipamentos exóticos e participe em invasões cooperativas.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "76"
+    },
+    {
+      "numj": 176,
+      "titulo": "Call of Duty: Black Ops",
+      "anoLancamento": 2010,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/5/54/Call-of-Duty---Black-Ops---Cover-.jpg",
+      "estudiosId": 24,
+      "descricao": "Call of Duty: Black Ops Um thriller de espionagem ambientado na Guerra Fria, seguindo o agente Alex Mason e as suas memórias fragmentadas. Participe em operações secretas intensas e descubra conspirações globais.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "77"
+    },
+    {
+      "numj": 177,
+      "titulo": "Call of Duty: World at War",
+      "anoLancamento": 2008,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/2/24/250px-Call_of_Duty_5_cover_art.PNG",
+      "estudiosId": 24,
+      "descricao": "Call of Duty: World at War Um regresso visceral à Segunda Guerra Mundial, cobrindo as brutais frentes do Pacífico e da Europa Oriental. Introduziu o famoso modo Zombies e oferece uma visão sombria do conflito.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "78"
+    },
+    {
+      "numj": 178,
+      "titulo": "Baldur's Gate 3",
+      "anoLancamento": 2023,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/1/18/Baldur%27s_Gate_III_Larian_Studios_key_art.png",
+      "estudiosId": 25,
+      "descricao": "Baldur's Gate 3 Um RPG massivo baseado em Dungeons & Dragons, onde a liberdade de escolha do jogador é quase ilimitada. Reúna um grupo de aventureiros e decida o destino dos Reinos Esquecidos com combate por turnos estratégico.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "79"
+    },
+    {
+      "numj": 179,
+      "titulo": "Divinity: Original Sin II",
+      "anoLancamento": 2017,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/4/4a/Divinity_Original_Sin_II_Larian_Studios_key_art.png",
+      "estudiosId": 25,
+      "descricao": "Divinity: Original Sin II Um RPG aclamado pela sua liberdade criativa e interações elementais complexas no combate. Jogue como um ser capaz de usar a magia da Fonte e lute pela divindade num mundo reativo.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "80"
+    },
+    {
+      "numj": 180,
+      "titulo": "Dark Souls",
+      "anoLancamento": 2011,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/7c/Dark_Souls_1_capa.png/330px-Dark_Souls_1_capa.png",
+      "estudiosId": 1,
+      "descricao": "Dark Souls O clássico moderno que popularizou a dificuldade elevada e a narrativa ambiental subtil. Explore o reino interconectado e decadente de Lordran, enfrentando inimigos punitivos e chefes colossais.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "81"
+    },
+    {
+      "numj": 181,
+      "titulo": "King's Field IV",
+      "anoLancamento": 2001,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/9/91/King%27s_Field_IV.jpg",
+      "estudiosId": 1,
+      "descricao": "King's Field IV Um RPG de exploração de masmorras em primeira pessoa, conhecido pela sua atmosfera lenta e opressiva. Aventure-se na Cidade Antiga para devolver um ídolo amaldiçoado, enfrentando perigos mortais a cada esquina.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "82"
+    },
+    {
+      "numj": 182,
+      "titulo": "Max Payne",
+      "anoLancamento": 2001,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/4/4c/Maxpaynebox.jpg",
+      "estudiosId": 13,
+      "descricao": "Max Payne Um jogo de tiro \"neo-noir\" que introduziu a revolucionária mecânica de \"bullet time\" (câmara lenta) nos jogos. Acompanhe a descida trágica de um polícia ao submundo do crime após o assassinato da sua família.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "83"
+    },
+    {
+      "numj": 183,
+      "titulo": "Alan Wake",
+      "anoLancamento": 2010,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/d/d5/Alan_Wake_capa.png",
+      "estudiosId": 13,
+      "descricao": "Alan Wake Um thriller psicológico onde um escritor procura a sua esposa desaparecida numa cidade onde a sua ficção se torna realidade. Use a luz como arma para enfraquecer inimigos possuídos pelas sombras antes de disparar.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "84"
+    },
+    {
+      "numj": 184,
+      "titulo": "The Witcher 1 (Enhanced Edition)",
+      "anoLancamento": 2008,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/90/The_Wicher_1_capa.png",
+      "estudiosId": 3,
+      "descricao": "The Witcher (Enhanced Edition) O primeiro jogo da saga, onde o bruxo Geralt sofre de amnésia e deve recuperar os segredos roubados da sua escola. Apesar das mecânicas antigas, estabelece o mundo sombrio, a alquimia e as escolhas morais difíceis da série.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "85"
+    },
+    {
+      "numj": 185,
+      "titulo": "Uncharted 3: Drake's Deception",
+      "anoLancamento": 2011,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/0/02/Uncharted_3_Boxart.jpg",
+      "estudiosId": 4,
+      "descricao": "Uncharted 3: Drake's Deception Nathan Drake procura a lendária \"Atlântida das Areias\" numa aventura cinematográfica global. O jogo aprofunda a relação entre Drake e o seu mentor Sully, apresentando cenas de ação espetaculares.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "86"
+    },
+    {
+      "numj": 186,
+      "titulo": "Jak II",
+      "anoLancamento": 2003,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/b/b3/JakIIbox.jpg",
+      "estudiosId": 4,
+      "descricao": "Jak II Uma continuação que mudou radicalmente a série para um tom mais sombrio e jogabilidade de mundo aberto. Jak ganha voz e armas de fogo para liderar uma resistência contra a tirania em Haven City.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "87"
+    },
+    {
+      "numj": 187,
+      "titulo": "God of War (PS2)",
+      "anoLancamento": 2005,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/53/God_of_War_2005_capa.png/330px-God_of_War_2005_capa.png",
+      "estudiosId": 5,
+      "descricao": "God of War (PS2) O início brutal da saga, onde Kratos serve os deuses do Olimpo para se livrar dos pesadelos do seu passado. Use as Lâminas do Caos para destruir o Deus da Guerra, Ares, numa jornada de pura vingança.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "88"
+    },
+    {
+      "numj": 188,
+      "titulo": "God of War II",
+      "anoLancamento": 2007,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/7/7e/God_of_War_2_capa.png",
+      "estudiosId": 5,
+      "descricao": "God of War II Traído por Zeus, Kratos inicia uma jornada para mudar o seu destino e destruir o Olimpo. Uma aventura épica que leva o Fantasma de Esparta até às Irmãs do Destino nos confins do mundo.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "89"
+    },
+    {
+      "numj": 189,
+      "titulo": "Super Mario Galaxy",
+      "anoLancamento": 2007,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/b/b1/Super_Mario_Galaxy_capa.png",
+      "estudiosId": 6,
+      "descricao": "Super Mario Galaxy Uma aventura de plataforma inventiva onde Mario viaja pelo espaço, saltando entre pequenos planetas com gravidade própria. Uma das experiências mais criativas da Nintendo, redefinindo o género em 3D.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "90"
+    },
+    {
+      "numj": 190,
+      "titulo": "The Legend of Zelda: Ocarina of Time",
+      "anoLancamento": 1998,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/1/17/The_Legend_of_Zelda_Ocarina_of_Time_capa.png?20170831233457",
+      "estudiosId": 6,
+      "descricao": "The Legend of Zelda: Ocarina of Time O jogo que definiu a ação-aventura em 3D, permitindo viajar no tempo entre a infância e a idade adulta de Link. Explore Hyrule, resolva masmorras lendárias e impeça Ganondorf de obter a Triforce.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "91"
+    },
+    {
+      "numj": 191,
+      "titulo": "Metroid Prime",
+      "anoLancamento": 2002,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/df/Metroid_Prime_capa.png/330px-Metroid_Prime_capa.png",
+      "estudiosId": 6,
+      "descricao": "Metroid Prime A transição magistral da série Metroid para a primeira pessoa, mantendo o foco na exploração, isolamento e \"backtracking\". Samus Aran investiga o planeta Tallon IV, desbloqueando habilidades para aceder a novas áreas.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "92"
+    },
+    {
+      "numj": 192,
+      "titulo": "Resident Evil 2 (Original)",
+      "anoLancamento": 1998,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/4/45/Resident_Evil_2_capa.png",
+      "estudiosId": 7,
+      "descricao": "Resident Evil 2 (Original) O clássico de terror de sobrevivência que introduziu o \"Zapping System\", onde as campanhas de Leon e Claire se interligam. Gerencie munição escassa e resolva puzzles enquanto tenta escapar de Raccoon City.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "93"
+    },
+    {
+      "numj": 193,
+      "titulo": "Devil May Cry 3: Dante's Awakening",
+      "anoLancamento": 2005,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/c/c1/Dmc3.png",
+      "estudiosId": 7,
+      "descricao": "Devil May Cry 3: Dante's Awakening Uma prequela focada no conflito entre o jovem Dante e o seu irmão gémeo Vergil. Introduziu o sistema de estilos de combate, elevando a complexidade e a velocidade da ação \"hack and slash\".",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "94"
+    },
+    {
+      "numj": 194,
+      "titulo": "Street Fighter II",
+      "anoLancamento": 1991,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/0/04/Flyer_japan_sf2.jpg",
+      "estudiosId": 7,
+      "descricao": "Street Fighter II O jogo de arcade que estabeleceu o padrão para todos os jogos de luta modernos. Escolha entre oito guerreiros mundiais icónicos e domine os seus movimentos especiais em combates um contra um.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "95"
+    },
+    {
+      "numj": 195,
+      "titulo": "DOOM (2016)",
+      "anoLancamento": 2016,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/7/72/Doom_2016_capa.png",
+      "estudiosId": 9,
+      "descricao": "DOOM (2016) Um \"reboot\" brutal e rápido que retorna às raízes da matança de demónios sem cobertura ou regeneração de saúde passiva. Mantenha-se em movimento constante e execute \"Glory Kills\" ao som de heavy metal industrial.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "96"
+    },
+    {
+      "numj": 196,
+      "titulo": "The Elder Scrolls III: Morrowind",
+      "anoLancamento": 2002,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/6/65/The_Elder_Scrolls_3_Morrowind_capa.png",
+      "estudiosId": 9,
+      "descricao": "The Elder Scrolls III: Morrowind Um RPG de mundo aberto aclamado pela sua liberdade total e pelo cenário exótico e estranho da ilha de Vvardenfell. Sem marcadores de missão intrusivos, o jogador deve mergulhar na cultura e política dos Dunmer.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "97"
+    },
+    {
+      "numj": 197,
+      "titulo": "Prey (2006)",
+      "anoLancamento": 2006,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/a/a8/Prey_2006_capa.png",
+      "estudiosId": 9,
+      "descricao": "Prey (2006) Um jogo de tiro inovador que utiliza portais e gravidade variável muito antes de outros do género. O protagonista Tommy usa habilidades espirituais Cherokee e armas biológicas para salvar a sua namorada de uma esfera alienígena.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "98"
+    },
+    {
+      "numj": 198,
+      "titulo": "Final Fantasy X",
+      "anoLancamento": 2001,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/8/89/FFX.jpg",
+      "estudiosId": 15,
+      "descricao": "Final Fantasy X Uma jornada emocional pelo mundo de Spira, seguindo o atleta Tidus e a invocadora Yuna na luta contra a entidade Sin. Destaca-se pelo seu sistema de batalha por turnos estratégico e narrativa romântica.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "99"
+    },
+    {
+      "numj": 199,
+      "titulo": "Chrono Trigger",
+      "anoLancamento": 1995,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/a/a7/Chrono_Trigger.jpg/330px-Chrono_Trigger.jpg",
+      "estudiosId": 15,
+      "descricao": "Chrono Trigger Um RPG japonês intemporal sobre viagens no tempo para impedir um apocalipse futuro. Apresenta múltiplos finais, combate sem transições de ecrã e personagens desenhados por Akira Toriyama.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "100"
+    },
+    {
+      "numj": 200,
+      "titulo": "Tomb Raider (2013)",
+      "anoLancamento": 2013,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/0/03/Tr2012cover.jpg",
+      "estudiosId": 15,
+      "descricao": "Tomb Raider (2013) O recomeço da franquia que mostra a transformação de Lara Croft de uma jovem inexperiente numa sobrevivente endurecida. Presa na ilha de Yamatai, Lara deve caçar, melhorar o seu equipamento e lutar para sobreviver.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "101"
+    },
+    {
+      "numj": 201,
+      "titulo": "Final Fantasy XIV: A Realm Reborn",
+      "anoLancamento": 2013,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/a/a1/Final_Fantasy_XIV%2C_A_Realm_Reborn_box_cover.jpg",
+      "estudiosId": 15,
+      "descricao": "Final Fantasy XIV: A Realm Reborn Um MMORPG com uma das melhores narrativas do género, renascido das cinzas da sua versão original falhada. Torne-se o Guerreiro da Luz e defenda Eorzea contra impérios e deuses primordiais.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "102"
+    },
+    {
+      "numj": 202,
+      "titulo": "Assassin's Creed IV: Black Flag",
+      "anoLancamento": 2013,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/c/ca/Assassins_Creed_4_Black_Flag_capa.png",
+      "estudiosId": 14,
+      "descricao": "Assassin's Creed IV: Black Flag A derradeira fantasia de pirataria, onde joga como o assassino e capitão Edward Kenway. Navegue pelo Caribe, participe em combates navais intensos e explore ilhas exóticas em busca de tesouros.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "103"
+    },
+    {
+      "numj": 203,
+      "titulo": "Far Cry 5",
+      "anoLancamento": 2018,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/9/94/Far_cry_5_cover.jpg",
+      "estudiosId": 14,
+      "descricao": "Far Cry 5 Um jogo de tiro em mundo aberto ambientado na região rural de Hope County, Montana. Lidere uma resistência caótica contra um culto fanático do juízo final liderado pelo carismático Joseph Seed.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "104"
+    },
+    {
+      "numj": 204,
+      "titulo": "Watch Dogs 2",
+      "anoLancamento": 2016,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/f8/Watch_Dogs_2_cover.png/330px-Watch_Dogs_2_cover.png",
+      "estudiosId": 14,
+      "descricao": "Watch Dogs 2 Uma aventura de ação vibrante em São Francisco, focada na cultura hacker e na liberdade digital. Jogue como Marcus Holloway e use o ambiente da cidade como arma para expor a corrupção corporativa.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "105"
+    },
+    {
+      "numj": 205,
+      "titulo": "Marvel's Spider-Man: Miles Morales",
+      "anoLancamento": 2020,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/7/74/Spider-Man_Miles_Morales_capa.png",
+      "estudiosId": 18,
+      "descricao": "Marvel's Spider-Man: Miles Morales Uma aventura focada na ascensão de Miles Morales como o novo Homem-Aranha do Harlem. Utilize novos poderes de bioeletricidade e invisibilidade para proteger o bairro de uma guerra corporativa.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "106"
+    },
+    {
+      "numj": 206,
+      "titulo": "Ratchet & Clank",
+      "anoLancamento": 2002,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/3/37/Ratchet_and_Clank_cover.jpg",
+      "estudiosId": 18,
+      "descricao": "Ratchet & Clank (2016) Uma recriação do jogo original baseada no filme, seguindo as aventuras espaciais de um Lombax e o seu robô. Conhecido pelo seu arsenal de armas criativas e absurdas e visuais ao nível da Pixar.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "107"
+    },
+    {
+      "numj": 207,
+      "titulo": "Forza Horizon 5",
+      "anoLancamento": 2021,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/pt/d/dc/Capa_de_Forza_Horizon_5.jpg",
+      "estudiosId": 26,
+      "descricao": "Forza Horizon 5 Um jogo de corrida de mundo aberto visualmente deslumbrante ambientado nas paisagens variadas do México. Participe em centenas de eventos e desafios de condução numa celebração vibrante da cultura automóvel.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "108"
+    },
+    {
+      "numj": 208,
+      "titulo": "Inside",
+      "anoLancamento": 2016,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/INSIDE_Xbox_One_cover_art.png/250px-INSIDE_Xbox_One_cover_art.png",
+      "estudiosId": 27,
+      "descricao": "Inside Um jogo de plataforma e quebra-cabeças sombrio e atmosférico dos criadores de Limbo. Controle um menino em fuga que se infiltra numa instalação misteriosa e distópica cheia de experiências bizarras.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": "109"
+    },
+    {
+      "numj": 209,
+      "titulo": "Elden Ring",
+      "anoLancamento": 2022,
+      "capa (url)": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Elden_Ring_Box_art.jpg/250px-Elden_Ring_Box_art.jpg",
+      "estudiosId": 1,
+      "descricao": "Elden Ring Um vasto RPG de ação de mundo aberto dos criadores de Dark Souls. Explore as Terras Intermédias e lute contra semideuses para se tornar o Lorde Prístino.",
+      "likes": 1,
+      "dislikes": 0,
+      "id": "110"
+    }
+  ]
+}

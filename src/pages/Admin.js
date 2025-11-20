@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Admin.css'; 
 
 // --- 1. DADOS DA API (Confirme que estão corretos) ---
-//const SHEETY_TOKEN = "Bearer davidpc102";
+const SHEETY_TOKEN = "";
 //const API_JOGOS_URL = "https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/jogos"; 
 //const API_ESTUDIOS_URL = "https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/estudios";
 const API_JOGOS_URL = "http://localhost:3001/jogos";
@@ -40,7 +40,7 @@ function Admin() {
   const [formData, setFormData] = useState(defaultGameState);
 
 
-  // --- FUNÇÕES DE FETCH E LOGIN (Não mudam) ---
+  // --- FUNÇÕES DE FETCH E LOGIN ---
   const fetchAdminData = async () => {
     setLoading(true);
     try {
@@ -50,8 +50,10 @@ function Admin() {
       ]);
       const jogosData = await jogosResponse.json();
       const estudiosData = await estudiosResponse.json();
-      setJogos(jogosData.jogos || []);
-      setEstudios(estudiosData.estudios || []); 
+      setJogos(jogosData);
+      setEstudios(estudiosData);
+      //setJogos(jogosData.jogos || []);
+      //setEstudios(estudiosData.estudios || []); 
     } catch (error) {
       console.error("Erro ao buscar dados:", error);
     } finally {

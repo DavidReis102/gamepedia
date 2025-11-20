@@ -16,8 +16,8 @@ function Home() {
   const SHEETY_TOKEN = "";
   //const API_JOGOS_URL = "https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/jogos"; 
   //const API_ESTUDIOS_URL = "https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/estudios";
-  const API_JOGOS_URL = "http://localhost:3001/jogos";
-  const API_ESTUDIOS_URL = "http://localhost:3001/estudios";
+  const API_JOGOS_URL = `http://localhost:3001/jogos`;
+  const API_ESTUDIOS_URL = `http://localhost:3001/estudios`;
 
 
   useEffect(() => {
@@ -29,8 +29,10 @@ function Home() {
         ]);
         const jogosData = await jogosResponse.json();
         const estudiosData = await estudiosResponse.json();
-        setJogos(jogosData.jogos || []);
-        setEstudios(estudiosData.estudios || []);
+        setJogos(jogosData); 
+        setEstudios(estudiosData);
+        //setJogos(jogosData.jogos || []);
+        //setEstudios(estudiosData.estudios || []);
       } catch (error) {
         console.error("Erro ao buscar dados:", error);
       } finally {
