@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useMemo } from 'react';
-// --- O IMPORT DA NAVBAR FOI REMOVIDO DAQUI ---
 import { GameCard } from '../components/GameCard';
 import './Home.css';
 
@@ -13,7 +12,7 @@ function Home() {
   const [jogosPorPagina] = useState(8);
   const [sortMethod, setSortMethod] = useState("default");
 
-  // O seu Token e URLs da API
+  //URLs da API
   const YOUR_SHEETY_TOKEN = "Bearer davidpc102";
   const API_JOGOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos"; 
   const API_ESTUDIOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios";
@@ -91,9 +90,9 @@ function Home() {
 
   // --- RENDERIZAR A PÁGINA ---
   return (
-    // --- O WRAPPER '<>' E A NAVBAR FORAM REMOVIDOS ---
+   
     <div className="home-container">
-      <h1>Gamepedia - Frontoffice</h1>
+      <h1>Gamepedia</h1>
 
       <div className="controls-container">
         {/* Barra de pesquisa */}

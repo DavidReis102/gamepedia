@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom'; 
 import './GameDetailPage.css'; 
 
-// O seu Token e ID da API
-const YOUR_SHEETY_TOKEN = "Bearer davidpc102";
- 
 
 function GameDetailPage() {
   const { gameId } = useParams(); 
@@ -17,6 +14,7 @@ function GameDetailPage() {
   const [hasVoted, setHasVoted] = useState(false); 
 
   // URLs da API
+  const YOUR_SHEETY_TOKEN = "Bearer davidpc102";
   const API_JOGO_URL = `https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos/${gameId}`;
   const API_ESTUDIOS_URL = `https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios`;
 

@@ -69,7 +69,7 @@ function Admin() {
 
   // --- FUNÇÕES CRUD ---
 
-  // Função Delete (Não muda)
+  // Função Delete
   const handleDelete = async (gameId) => {
     if (!window.confirm("Tem a certeza que quer apagar este jogo?")) return;
     try {
@@ -320,7 +320,7 @@ function Admin() {
                   <td>{jogo.titulo}</td>
                   <td>{jogo.anoLancamento}</td>
                   <td className="admin-table-actions">
-                    {/* Botão de Editar agora funciona */}
+                    {}
                     <button 
                       className="admin-button-edit"
                       onClick={() => handleEditClick(jogo)}
