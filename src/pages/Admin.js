@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Admin.css'; 
 
 // --- 1. DADOS DA API (Confirme que estão corretos) ---
-const YOUR_SHEETY_TOKEN = "Bearer davidpc102";
+const SHEETY_TOKEN = "Bearer davidpc102";
 const API_JOGOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos"; 
 const API_ESTUDIOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios";
 
@@ -43,8 +43,8 @@ function Admin() {
     setLoading(true);
     try {
       const [jogosResponse, estudiosResponse] = await Promise.all([
-        fetch(API_JOGOS_URL, { headers: { 'Authorization': YOUR_SHEETY_TOKEN } }),
-        fetch(API_ESTUDIOS_URL, { headers: { 'Authorization': YOUR_SHEETY_TOKEN } })
+        fetch(API_JOGOS_URL, { headers: { 'Authorization': SHEETY_TOKEN } }),
+        fetch(API_ESTUDIOS_URL, { headers: { 'Authorization': SHEETY_TOKEN } })
       ]);
       const jogosData = await jogosResponse.json();
       const estudiosData = await estudiosResponse.json();
@@ -59,7 +59,7 @@ function Admin() {
 
   const handleLogin = (event) => {
     event.preventDefault(); 
-    if (username === 'admin' && password === 'password') {
+    if (username === 'davidpc102' && password === 'Mirakuro102') {
       setIsLoggedIn(true);
       fetchAdminData(); 
     } else {
@@ -75,7 +75,7 @@ function Admin() {
     try {
       await fetch(`${API_JOGOS_URL}/${gameId}`, {
         method: 'DELETE',
-        headers: { 'Authorization': YOUR_SHEETY_TOKEN }
+        headers: { 'Authorization': SHEETY_TOKEN }
       });
       setJogos(jogos.filter(jogo => jogo.id !== gameId));
     } catch (error) {
@@ -112,7 +112,7 @@ function Admin() {
     try {
       const response = await fetch(API_JOGOS_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Authorization': YOUR_SHEETY_TOKEN },
+        headers: { 'Content-Type': 'application/json', 'Authorization': SHEETY_TOKEN },
         body: JSON.stringify(newGameData)
       });
       if (!response.ok) throw new Error(`Erro da API: ${response.statusText}`);
@@ -147,7 +147,7 @@ function Admin() {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': YOUR_SHEETY_TOKEN 
+          'Authorization': SHEETY_TOKEN 
         },
         body: JSON.stringify(updatedGameData)
       });
