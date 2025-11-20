@@ -13,7 +13,7 @@ function Home() {
   const [sortMethod, setSortMethod] = useState("default");
 
   //URLs da API
-  const YOUR_SHEETY_TOKEN = "Bearer davidpc102";
+  const SHEETY_TOKEN = "Bearer davidpc102";
   const API_JOGOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/jogos"; 
   const API_ESTUDIOS_URL = "https://api.sheety.co/5649671ab79be60509611cf0d6e3f249/gamepediaApi/estudios";
 
@@ -22,8 +22,8 @@ function Home() {
     const fetchData = async () => {
       try {
         const [jogosResponse, estudiosResponse] = await Promise.all([
-          fetch(API_JOGOS_URL, { headers: { 'Authorization': YOUR_SHEETY_TOKEN } }),
-          fetch(API_ESTUDIOS_URL, { headers: { 'Authorization': YOUR_SHEETY_TOKEN } })
+          fetch(API_JOGOS_URL, { headers: { 'Authorization': SHEETY_TOKEN } }),
+          fetch(API_ESTUDIOS_URL, { headers: { 'Authorization': SHEETY_TOKEN } })
         ]);
         const jogosData = await jogosResponse.json();
         const estudiosData = await estudiosResponse.json();
@@ -39,7 +39,7 @@ function Home() {
   }, []);
 
   const getEstudioName = (estudiosId) => {
-    const estudio = estudios.find(e => e.num == estudiosId);
+    const estudio = estudios.find(e => e.num === estudiosId);
     return estudio ? estudio.nome : 'Desconhecido';
   };
 
@@ -51,7 +51,7 @@ function Home() {
         return true;
       }
       const tituloMatch = jogo.titulo.toLowerCase().includes(search);
-      const estudio = estudios.find(e => e.num == jogo.estudiosId);
+      const estudio = estudios.find(e => e.num === jogo.estudiosId);
       const estudioNome = estudio ? estudio.nome : '';
       const estudioMatch = estudioNome.toLowerCase().includes(search);
       return tituloMatch || estudioMatch;
