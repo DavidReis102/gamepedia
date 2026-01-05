@@ -14,9 +14,11 @@ function GameDetailPage() {
   const [hasVoted, setHasVoted] = useState(false);
   
     // URLs da API
-  const SHEETY_TOKEN = "Bearer davidpc102";
-  const API_JOGO_URL = `https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/jogos/${gameId}`;
-  const API_ESTUDIOS_URL = `https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/estudios`;
+  const SHEETY_TOKEN = "";
+  const API_JOGO_URL = `https://api.sheety.co/8cffd316e8dcac18ca085f6517ac25de/gamepediaApi/jogos/${gameId}`;
+  const API_ESTUDIOS_URL = `https://api.sheety.co/8cffd316e8dcac18ca085f6517ac25de/gamepediaApi/estudios`;
+  //const API_JOGOS_URL = `http://localhost:3001/jogos/${gameId}`;
+  //const API_ESTUDIOS_URL = `http://localhost:3001/estudios`;
 
   // useEffect para buscar os dados
   useEffect(() => {

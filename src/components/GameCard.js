@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importar o Link
-import './GameCard.css'; // Importar o CSS do cartão
+import { Link } from 'react-router-dom';
+import './GameCard.css';
 
 // Usar 'export function' para o import com { }
 export function GameCard({ jogo, estudioNome }) {
@@ -9,7 +9,7 @@ export function GameCard({ jogo, estudioNome }) {
     return null;
   }
 
-  // O 'Link' é agora o cartão, para remover o sublinhado
+  // O 'Link' é o cartão
   // A classe "game-card" é aplicada diretamente no Link
   return (
     <Link to={`/jogo/${jogo.id}`} className="game-card">

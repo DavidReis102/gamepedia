@@ -4,10 +4,10 @@ import './Admin.css';
 
 // --- 1. DADOS DA API (Confirme que estão corretos) ---
 const SHEETY_TOKEN = "";
-//const API_JOGOS_URL = "https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/jogos"; 
-//const API_ESTUDIOS_URL = "https://api.sheety.co/03602968132db23fc2d009326a090693/gamepediaApi/estudios";
-const API_JOGOS_URL = "http://localhost:3001/jogos";
-const API_ESTUDIOS_URL = "http://localhost:3001/estudios";
+const API_JOGOS_URL = "https://api.sheety.co/8cffd316e8dcac18ca085f6517ac25de/gamepediaApi/jogos"; 
+const API_ESTUDIOS_URL = "https://api.sheety.co/8cffd316e8dcac18ca085f6517ac25de/gamepediaApi/estudios";
+//const API_JOGOS_URL = "http://localhost:3001/jogos";
+//const API_ESTUDIOS_URL = "http://localhost:3001/estudios";
 
 // Estado inicial para o formulário
 const defaultGameState = {
@@ -50,10 +50,10 @@ function Admin() {
       ]);
       const jogosData = await jogosResponse.json();
       const estudiosData = await estudiosResponse.json();
-      setJogos(jogosData);
-      setEstudios(estudiosData);
-      //setJogos(jogosData.jogos || []);
-      //setEstudios(estudiosData.estudios || []); 
+      //setJogos(jogosData);
+      //setEstudios(estudiosData);
+      setJogos(jogosData.jogos || []);
+      setEstudios(estudiosData.estudios || []); 
     } catch (error) {
       console.error("Erro ao buscar dados:", error);
     } finally {

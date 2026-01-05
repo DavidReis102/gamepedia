@@ -1,5 +1,4 @@
 .game-card {
-  /* --- 1. CORREÇÃO DO LINK --- */
   text-decoration: none; /* Remove o sublinhado azul */
   color: inherit; /* Faz o texto ter a cor normal (branca) */
   
@@ -31,7 +30,6 @@
 
 .game-card-info {
   padding: 16px;
-  /* --- 3. PEQUENO AJUSTE PARA O FLEXBOX --- */
   flex-grow: 1; /* Faz esta secção crescer para preencher o espaço */
 }
 
